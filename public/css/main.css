@@ -1,0 +1,12 @@
+body{
+    background-color: gray;
+}/*
+.form-signin{
+    max-width: max-content;
+}*/
+.container{
+    min-height: 100vh;
+    /*max-height: max-content;*/
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.29);
+    background-color: white;
+}

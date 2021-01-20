@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Вход</title>
+</head>
+<body>
+    <div class="container py-5">
+        <h1>Вход</h1>
+        <form class="form-login col-md-8 offset-sm-2 my-5" method="POST" action="login.php">
+            <label class="my-3" for="login">Логин</label>
+            <input class="form-control" type="login" name="login" id="login" placeholder="Логин">
+            <label class="my-3" for="password">Пароль</label>
+            <input class="form-control" type="password" name="password" id="password" placeholder="Пароль">
+            <button class="btn btn-lg btn-primary btn-block my-3" type="submit">Войти</button>
+            <br><a href="/registration.html">Регистрация</a>
+            <br><a href="/">На главную</a>
+        </form>        
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
